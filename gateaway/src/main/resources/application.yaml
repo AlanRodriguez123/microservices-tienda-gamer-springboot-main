@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: gateaway
+  cloud:
+    gateway:
+      default-filters:
+        - JwtAuthFilter
+      routes:
+        - id: auth-service
+          uri: lb://auth-service
+          predicates:
+            - Path=/auth/** 
+        - id: product-service
+          uri: lb://product-service
+          predicates:
+            - Path=/products/**
+  security:
+    user:
+      name: user
+      password: password
+
+jwt:
+  secret: x7Sj4xYtJf3gQ2jS8E6Mf9q2p9M4Q3r8hVhTjPQd8zE=
+  expiration: 86400000
+
+server:
+  port: 8085
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    com.tiendagamer.gateway: DEBUG

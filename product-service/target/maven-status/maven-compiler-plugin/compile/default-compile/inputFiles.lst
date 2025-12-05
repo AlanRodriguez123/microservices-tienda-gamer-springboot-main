@@ -1,0 +1,6 @@
+/app/src/main/java/com/tiendagamer/productservice/ProductServiceApplication.java
+/app/src/main/java/com/tiendagamer/productservice/controller/ProductController.java
+/app/src/main/java/com/tiendagamer/productservice/dto/ProductRequest.java
+/app/src/main/java/com/tiendagamer/productservice/model/Product.java
+/app/src/main/java/com/tiendagamer/productservice/repository/ProductRepository.java
+/app/src/main/java/com/tiendagamer/productservice/service/ProductService.java

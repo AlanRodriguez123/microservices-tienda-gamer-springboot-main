@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: Auth Service
+  datasource:
+    url: jdbc:postgresql://auth-db:5432/auth
+    username: myuser
+    password: auth
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+jwt:
+  secret: x7Sj4xYtJf3gQ2jS8E6Mf9q2p9M4Q3r8hVhTjPQd8zE=
+  expiration: 86400000

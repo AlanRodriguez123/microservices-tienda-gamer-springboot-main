@@ -1,0 +1,5 @@
+spring:
+  data:
+  mongodb:
+    uri: mongodb://root:rootpwd@mongodb:27017/products_db?authSource=admin
+    
