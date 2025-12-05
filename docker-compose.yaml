@@ -1,20 +1,5 @@
 services:
 
-  gateaway:
-    image: 'maven:3.9.11-eclipse-temurin-25-alpine'
-    working_dir: /app
-    volumes:
-      - ./gateaway:/app
-    ports:
-      - '8085:8085'
-    environment:
-      - SPRING_PROFILES_ACTIVE=dev
-      - JAVA_TOOL_OPTIONS=-Dspring.devtools.restart.enabled=true
-    command: mvn spring-boot:run
-    depends_on:
-      - auth-service
-      - product-service
-
   auth-service:
     image: 'maven:3.9.11-eclipse-temurin-25-alpine'
     working_dir: /app

@@ -1,6 +1,0 @@
-com/tiendagamer/productservice/model/Product.class
-com/tiendagamer/productservice/ProductServiceApplication.class
-com/tiendagamer/productservice/service/ProductService.class
-com/tiendagamer/productservice/dto/ProductRequest.class
-com/tiendagamer/productservice/repository/ProductRepository.class
-com/tiendagamer/productservice/controller/ProductController.class

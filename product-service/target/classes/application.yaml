@@ -3,3 +3,7 @@ spring:
     name: Product Service
 server:
   port: 8081
+
+jwt:
+  secret: x7Sj4xYtJf3gQ2jS8E6Mf9q2p9M4Q3r8hVhTjPQd8zE=
+  expiration: 86400000
