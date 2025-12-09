@@ -1,6 +1,7 @@
 /app/src/main/java/com/tiendagamer/productservice/ProductServiceApplication.java
 /app/src/main/java/com/tiendagamer/productservice/config/JwtAuthenticationFilter.java
 /app/src/main/java/com/tiendagamer/productservice/config/JwtService.java
+/app/src/main/java/com/tiendagamer/productservice/config/OpenApiConfig.java
 /app/src/main/java/com/tiendagamer/productservice/config/SecurityConfig.java
 /app/src/main/java/com/tiendagamer/productservice/controller/ProductController.java
 /app/src/main/java/com/tiendagamer/productservice/dto/ProductRequest.java

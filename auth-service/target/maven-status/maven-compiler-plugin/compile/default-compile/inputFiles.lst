@@ -1,5 +1,6 @@
 /app/src/main/java/com/tiendagamer/authservice/AuthServiceApplication.java
 /app/src/main/java/com/tiendagamer/authservice/config/JwtAuthenticationFilter.java
+/app/src/main/java/com/tiendagamer/authservice/config/OpenApiConfig.java
 /app/src/main/java/com/tiendagamer/authservice/config/SecurityConfig.java
 /app/src/main/java/com/tiendagamer/authservice/controller/AuthController.java
 /app/src/main/java/com/tiendagamer/authservice/dto/AuthResponse.java
